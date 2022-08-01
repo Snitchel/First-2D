@@ -53,3 +53,12 @@ TagManager:
   - name: Layer 3
     uniqueID: 4189426099
     locked: 0
+  - name: Background
+    uniqueID: 1699676545
+    locked: 0
+  - name: Water
+    uniqueID: 3011235895
+    locked: 0
+  - name: Platforms
+    uniqueID: 1433768453
+    locked: 0
