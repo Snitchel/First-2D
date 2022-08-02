@@ -11584,6 +11584,12 @@ PolygonCollider2D:
       - {x: -5.98498, y: 0.50405836}
       - {x: 30.052952, y: 0.546999}
       - {x: 30.059174, y: 12.950466}
+--- !u!4 &1743377414 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 224615516487772794, guid: 4ce2e1a14f51d2d4997820bd9632b490,
+    type: 3}
+  m_PrefabInstance: {fileID: 7638899057714760310}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1830490614
 GameObject:
   m_ObjectHideFlags: 0
@@ -11745,6 +11751,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 6793302012503851776, guid: aa10176f6ca2e8547b163fd3045ff40c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 6793302012503851804, guid: aa10176f6ca2e8547b163fd3045ff40c,
         type: 3}
       propertyPath: m_RootOrder
@@ -11809,6 +11820,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2243796337593928109, guid: 4ce2e1a14f51d2d4997820bd9632b490,
+        type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 1743377414}
+    - target: {fileID: 2243796337593928109, guid: 4ce2e1a14f51d2d4997820bd9632b490,
+        type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 3727024582233942140, guid: 08d1fe5bca34c584b8b7b8c7fb961df8,
+        type: 3}
     - target: {fileID: 7638899057979097538, guid: 4ce2e1a14f51d2d4997820bd9632b490,
         type: 3}
       propertyPath: m_RootOrder
